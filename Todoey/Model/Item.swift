@@ -6,9 +6,9 @@
 //  Copyright © 2018 Zackarin Necesito. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class Item {
+class Item: Encodable, Decodable {
     
     var title : String = ""
     var done : Bool = false
